@@ -11,6 +11,12 @@
     <modules>
         <module>pro-base</module>
         <module>pro-spring-boot</module>
+        <module>pro-spring-security</module>
+        <module>pro-global-exception</module>
+        <module>pro-mybatis-plus-generator</module>
+        <module>pro-springboot-redis</module>
+        <module>pro-springboot-zookeeper</module>
+        <module>pro-data-structure</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>

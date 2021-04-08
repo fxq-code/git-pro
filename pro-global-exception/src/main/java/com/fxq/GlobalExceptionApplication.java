@@ -1,0 +1,13 @@
+package com.fxq;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.fxq.mapper")
+public class GlobalExceptionApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GlobalExceptionApplication.class,args);
+    }
+}
